@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1470" height="1200" viewBox="0 0 1470 1200" font-family="Segoe UI, Arial, sans-serif">
+<title>Olist dataset relationships</title>
+<rect width="1470" height="1200" fill="#ffffff"/>
+<style>.f{font-size:13px;fill:#1f2933}.tag{font-size:11px;font-weight:600}.pk{fill:#b45309}.fk{fill:#1d4ed8}.zip{fill:#6b7280}.lbl{font-size:12px;fill:#374151}.card{font-size:13px;font-weight:700;fill:#111827}.edge{stroke:#4b5563;stroke-width:1.6;fill:none}.soft{stroke:#9ca3af;stroke-width:1.6;fill:none;stroke-dasharray:6 5}</style>
+<path d="M 700 330 L 700 192" class="edge"/>
+<text x="712" y="320" class="card" text-anchor="middle" >1</text>
+<text x="712" y="210" class="card" text-anchor="middle" >1</text>
+<rect x="654.4" y="251" width="91.2" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="700" y="265" class="lbl" text-anchor="middle" >customer_id</text>
+<path d="M 550 406 L 340 406" class="edge"/>
+<text x="538" y="398" class="card" text-anchor="middle" >1</text>
+<text x="352" y="398" class="card" text-anchor="middle" >N</text>
+<rect x="410.2" y="396" width="69.6" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="445" y="410" class="lbl" text-anchor="middle" >order_id</text>
+<path d="M 850 406 L 1060 406" class="edge"/>
+<text x="862" y="398" class="card" text-anchor="middle" >1</text>
+<text x="1048" y="398" class="card" text-anchor="middle" >N</text>
+<rect x="920.2" y="396" width="69.6" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="955" y="410" class="lbl" text-anchor="middle" >order_id</text>
+<path d="M 700 548 L 700 680" class="edge"/>
+<text x="712" y="566" class="card" text-anchor="middle" >1</text>
+<text x="712" y="670" class="card" text-anchor="middle" >N</text>
+<rect x="665.2" y="604" width="69.6" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="700" y="618" class="lbl" text-anchor="middle" >order_id</text>
+<path d="M 550 778 L 340 778" class="edge"/>
+<text x="538" y="770" class="card" text-anchor="middle" >N</text>
+<text x="352" y="770" class="card" text-anchor="middle" >1</text>
+<rect x="403.0" y="768" width="84.0" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="445" y="782" class="lbl" text-anchor="middle" >product_id</text>
+<path d="M 850 778 L 1060 778" class="edge"/>
+<text x="862" y="770" class="card" text-anchor="middle" >N</text>
+<text x="1048" y="770" class="card" text-anchor="middle" >1</text>
+<rect x="916.6" y="768" width="76.8" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="955" y="782" class="lbl" text-anchor="middle" >seller_id</text>
+<path d="M 190 920 L 190 1010" class="edge"/>
+<text x="202" y="938" class="card" text-anchor="middle" >N</text>
+<text x="202" y="1002" class="card" text-anchor="middle" >1</text>
+<rect x="108.39999999999999" y="954" width="163.20000000000002" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="190" y="968" class="lbl" text-anchor="middle" >product_category_name</text>
+<path d="M 850 116 L 1060 116" class="soft"/>
+<text x="862" y="108" class="card" text-anchor="middle" >N</text>
+<text x="1048" y="108" class="card" text-anchor="middle" >N</text>
+<rect x="913.0" y="106" width="84.0" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="955" y="120" class="lbl" text-anchor="middle" >zip prefix</text>
+<path d="M 1360 80 L 1400 80 L 1400 820 L 1360 820" class="soft"/>
+<text x="1372" y="72" class="card" text-anchor="middle" >N</text>
+<text x="1372" y="812" class="card" text-anchor="middle" >N</text>
+<rect x="1358.0" y="446" width="84.0" height="20" rx="4" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="1400" y="460" class="lbl" text-anchor="middle" >zip prefix</text>
+<rect x="550" y="40" width="300" height="154" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 550 48 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="562" y="62" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">customers</text>
+<text x="838" y="62" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">99,441 rows</text>
+<text x="562" y="91" class="f" text-anchor="start" style="font-weight:600">customer_id</text>
+<text x="838" y="91" class="tag pk" text-anchor="end" >PK</text>
+<text x="562" y="113" class="f" text-anchor="start" >customer_unique_id</text>
+<text x="562" y="135" class="f" text-anchor="start" >customer_zip_code_prefix</text>
+<text x="838" y="135" class="tag zip" text-anchor="end" >zip</text>
+<text x="562" y="157" class="f" text-anchor="start" >customer_city</text>
+<text x="562" y="179" class="f" text-anchor="start" >customer_state</text>
+<rect x="1060" y="40" width="300" height="154" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+<path d="M 1060 48 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#6b7280"/>
+<text x="1072" y="62" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">geolocation</text>
+<text x="1348" y="62" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">1,000,163 rows</text>
+<text x="1072" y="91" class="f" text-anchor="start" >geolocation_zip_code_prefix</text>
+<text x="1348" y="91" class="tag zip" text-anchor="end" >zip</text>
+<text x="1072" y="113" class="f" text-anchor="start" >geolocation_lat</text>
+<text x="1072" y="135" class="f" text-anchor="start" >geolocation_lng</text>
+<text x="1072" y="157" class="f" text-anchor="start" >geolocation_city</text>
+<text x="1072" y="179" class="f" text-anchor="start" >geolocation_state</text>
+<rect x="40" y="330" width="300" height="154" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 40 338 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="52" y="352" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">order_payments</text>
+<text x="328" y="352" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">103,886 rows</text>
+<text x="52" y="381" class="f" text-anchor="start" style="font-weight:600">order_id</text>
+<text x="328" y="381" class="tag pk" text-anchor="end" >PK FK</text>
+<text x="52" y="403" class="f" text-anchor="start" style="font-weight:600">payment_sequential</text>
+<text x="328" y="403" class="tag pk" text-anchor="end" >PK</text>
+<text x="52" y="425" class="f" text-anchor="start" >payment_type</text>
+<text x="52" y="447" class="f" text-anchor="start" >payment_installments</text>
+<text x="52" y="469" class="f" text-anchor="start" >payment_value</text>
+<rect x="550" y="330" width="300" height="220" rx="8" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M 550 338 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#1e3a8a"/>
+<text x="562" y="352" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">orders</text>
+<text x="838" y="352" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">99,441 rows</text>
+<text x="562" y="381" class="f" text-anchor="start" style="font-weight:600">order_id</text>
+<text x="838" y="381" class="tag pk" text-anchor="end" >PK</text>
+<text x="562" y="403" class="f" text-anchor="start" >customer_id</text>
+<text x="838" y="403" class="tag fk" text-anchor="end" >FK</text>
+<text x="562" y="425" class="f" text-anchor="start" >order_status</text>
+<text x="562" y="447" class="f" text-anchor="start" >order_purchase_timestamp</text>
+<text x="562" y="469" class="f" text-anchor="start" >order_approved_at</text>
+<text x="562" y="491" class="f" text-anchor="start" >order_delivered_carrier_date</text>
+<text x="562" y="513" class="f" text-anchor="start" >order_delivered_customer_date</text>
+<text x="562" y="535" class="f" text-anchor="start" >order_estimated_delivery_date</text>
+<rect x="1060" y="330" width="300" height="198" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 1060 338 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="1072" y="352" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">order_reviews</text>
+<text x="1348" y="352" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">99,224 rows</text>
+<text x="1072" y="381" class="f" text-anchor="start" style="font-weight:600">review_id</text>
+<text x="1348" y="381" class="tag pk" text-anchor="end" >PK</text>
+<text x="1072" y="403" class="f" text-anchor="start" style="font-weight:600">order_id</text>
+<text x="1348" y="403" class="tag pk" text-anchor="end" >PK FK</text>
+<text x="1072" y="425" class="f" text-anchor="start" >review_score</text>
+<text x="1072" y="447" class="f" text-anchor="start" >review_comment_title</text>
+<text x="1072" y="469" class="f" text-anchor="start" >review_comment_message</text>
+<text x="1072" y="491" class="f" text-anchor="start" >review_creation_date</text>
+<text x="1072" y="513" class="f" text-anchor="start" >review_answer_timestamp</text>
+<rect x="550" y="680" width="300" height="198" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 550 688 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="562" y="702" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">order_items</text>
+<text x="838" y="702" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">112,650 rows</text>
+<text x="562" y="731" class="f" text-anchor="start" style="font-weight:600">order_id</text>
+<text x="838" y="731" class="tag pk" text-anchor="end" >PK FK</text>
+<text x="562" y="753" class="f" text-anchor="start" style="font-weight:600">order_item_id</text>
+<text x="838" y="753" class="tag pk" text-anchor="end" >PK</text>
+<text x="562" y="775" class="f" text-anchor="start" >product_id</text>
+<text x="838" y="775" class="tag fk" text-anchor="end" >FK</text>
+<text x="562" y="797" class="f" text-anchor="start" >seller_id</text>
+<text x="838" y="797" class="tag fk" text-anchor="end" >FK</text>
+<text x="562" y="819" class="f" text-anchor="start" >shipping_limit_date</text>
+<text x="562" y="841" class="f" text-anchor="start" >price</text>
+<text x="562" y="863" class="f" text-anchor="start" >freight_value</text>
+<rect x="40" y="680" width="300" height="242" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 40 688 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="52" y="702" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">products</text>
+<text x="328" y="702" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">32,951 rows</text>
+<text x="52" y="731" class="f" text-anchor="start" style="font-weight:600">product_id</text>
+<text x="328" y="731" class="tag pk" text-anchor="end" >PK</text>
+<text x="52" y="753" class="f" text-anchor="start" >product_category_name</text>
+<text x="328" y="753" class="tag fk" text-anchor="end" >FK*</text>
+<text x="52" y="775" class="f" text-anchor="start" >product_name_lenght</text>
+<text x="52" y="797" class="f" text-anchor="start" >product_description_lenght</text>
+<text x="52" y="819" class="f" text-anchor="start" >product_photos_qty</text>
+<text x="52" y="841" class="f" text-anchor="start" >product_weight_g</text>
+<text x="52" y="863" class="f" text-anchor="start" >product_length_cm</text>
+<text x="52" y="885" class="f" text-anchor="start" >product_height_cm</text>
+<text x="52" y="907" class="f" text-anchor="start" >product_width_cm</text>
+<rect x="1060" y="713" width="300" height="132" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 1060 721 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="1072" y="735" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">sellers</text>
+<text x="1348" y="735" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">3,095 rows</text>
+<text x="1072" y="764" class="f" text-anchor="start" style="font-weight:600">seller_id</text>
+<text x="1348" y="764" class="tag pk" text-anchor="end" >PK</text>
+<text x="1072" y="786" class="f" text-anchor="start" >seller_zip_code_prefix</text>
+<text x="1348" y="786" class="tag zip" text-anchor="end" >zip</text>
+<text x="1072" y="808" class="f" text-anchor="start" >seller_city</text>
+<text x="1072" y="830" class="f" text-anchor="start" >seller_state</text>
+<rect x="40" y="1010" width="300" height="88" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="1.5"/>
+<path d="M 40 1018 a 8 8 0 0 1 8 -8 h 284 a 8 8 0 0 1 8 8 v 26 h -300 z" fill="#0f766e"/>
+<text x="52" y="1032" class="f" text-anchor="start" style="fill:#ffffff;font-weight:700;font-size:14px">product_category_name_translation</text>
+<text x="328" y="1032" class="f" text-anchor="end" style="fill:#e5e7eb;font-size:11px">71</text>
+<text x="52" y="1061" class="f" text-anchor="start" style="font-weight:600">product_category_name</text>
+<text x="328" y="1061" class="tag pk" text-anchor="end" >PK</text>
+<text x="52" y="1083" class="f" text-anchor="start" >product_category_name_english</text>
+<rect x="550" y="960" width="850" height="215" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="566" y="986" class="f" text-anchor="start" style="font-weight:700;font-size:14px">Legend and notes</text>
+<text x="590" y="1014" class="tag pk" text-anchor="end" >PK</text>
+<text x="602" y="1014" class="f" text-anchor="start" >primary key (composite where two fields are marked)</text>
+<text x="590" y="1036" class="tag fk" text-anchor="end" >FK</text>
+<text x="602" y="1036" class="f" text-anchor="start" >foreign key - all order/customer/product/seller links verified: 0 orphans</text>
+<text x="590" y="1058" class="tag fk" text-anchor="end" >FK*</text>
+<text x="602" y="1058" class="f" text-anchor="start" >soft key: 610 products have no category; 2 categories (13 products) lack a translation</text>
+<text x="590" y="1080" class="tag zip" text-anchor="end" >zip</text>
+<text x="602" y="1080" class="f" text-anchor="start" >dashed = zip-prefix match only, not a real key; geolocation repeats prefixes (19,015 distinct)</text>
+<text x="590" y="1102" class="tag zip" text-anchor="end" >1 / N</text>
+<text x="602" y="1102" class="f" text-anchor="start" >cardinality. customer_id is per order (1:1); use customer_unique_id for real people</text>
+<text x="590" y="1124" class="tag pk" text-anchor="end" >!</text>
+<text x="602" y="1124" class="f" text-anchor="start" >orders fans out to items, payments and reviews - aggregate each before joining together</text>
+<text x="590" y="1146" class="tag pk" text-anchor="end" >!</text>
+<text x="602" y="1146" class="f" text-anchor="start" >review_id is not unique alone (814 repeats); key is (review_id, order_id)</text>
+</svg>
