@@ -1,6 +1,4 @@
-import pypandoc
-
-readme = r"""# Natural Language to SQL Analytics Agent
+# Natural Language to SQL Analytics Agent
 
 An intermediate-level Generative AI project that lets users ask business questions in plain English and receive SQL-backed answers, result tables, and optional visualizations. The agent uses an LLM to understand the question and draft SQL, but PostgreSQL executes the query and remains the source of truth.
 
@@ -529,8 +527,3 @@ This repository's code license should be selected separately. Review the Olist d
 ---
 
 **Project principle:** Let the LLM interpret the question and propose SQL; let the database, deterministic validation, and measured evaluation establish what is safe and correct.
-"""
-
-output_path = "/mnt/data/README.md"
-pypandoc.convert_text(readme, "md", format="md", outputfile=output_path, extra_args=["--standalone"])
-print(f"Created: {output_path}")
